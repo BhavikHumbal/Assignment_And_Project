@@ -30,7 +30,7 @@ namespace project_ecommerce.Areas.user.Controllers
                 string productInfo = form["txtprodinfo"].ToString();
                 string email = form["txtemail"].ToString();
                 string phone = form["txtphone"].ToString();
-                string surl = "/Users/Default/Success";  //Change the success url here depending upon the port number of your local system.
+                string surl = "/user/Default/Success";  //Change the success url here depending upon the port number of your local system.
                 string furl = "/Users/Default/Failed";  //Change the failure url here depending upon the port number of your local system.
 
 
